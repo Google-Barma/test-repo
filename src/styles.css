@@ -1,20 +1,14 @@
-html {
-  box-sizing: border-box;
+li {
+  background-color: hotpink;
+  width: 30px;
+  height: 30px;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+li:nth-of-type(odd) {
+  color: red;
+  background-color: green;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-
-  /*
-   * CSS image reference example.
-   */
-  background-image: url('./images/bg-pattern.png');
+ul {
+  backdrop-filter: blur(100px);
 }
